@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+}
+
+.in{
+padding-top: 20px;
+padding-left: 20px;
+}
+
+.out{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: bold;
+    color:darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    color: black;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+button{
+    color: aliceblue;
+    background-color: burlywood;
+    border: 0;
+    border-radius: 9%;
+    padding: 13px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- <button onclick="alert('Button Clicked')">Click here</button>
+    <p onclick="this.innerHTML='Hello'"> Click me !!!</p>
+    <p onclick="innerHTML='Hello'"> Click me !!!</p>
+    <button onclick="hide()">Hide Div</button>
+    <button onclick="show()">Show Div</button>
+    <div id="demo"> This is a hidden </div> -->
+
+    <button id="change" onclick="changebg()">Change BG Color</button>
+
+    <img src="/javascript/firstproject/arrow/js/images/blackbggirl.jpg" id="chngimg" onclick="changeimage()" width="500px" height="400px">
+
+    <script>
+        // var chng=document.getElementById("change")
+
+        function changebg(){
+            var chng=document.getElementById("change")
+            chng=document.body.style.backgroundColor="blue"
+        }
+
+        function changeimage(){
+            var i=document.getElementById("chngimg")
+            i.src=("/javascript/firstproject/arrow/js/images/blackbggirl2.jpg")
+        }
+        
+    </script>
+</body>
+<!-- <script src="/javascript/firstproject/arrow/js/javascript.js"></script> -->
+</html>
