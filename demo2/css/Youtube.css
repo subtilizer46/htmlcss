@@ -1,0 +1,36 @@
+.container{
+    margin: 10px;
+    padding: 10px;
+    left: 10%;
+}
+.searchbar{
+    width: 60%; 
+    padding: 10px;
+    margin: 5px;
+    
+    border-radius: 10px; 
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.vdos-list{
+    padding:10px;
+}
+
+.vdo{
+    display: inline-block;
+    padding: 2px;
+}
+
+.vdo video{
+    border-radius: 12px;
+}
+
+h3{
+    margin: 0px;
+}
+
+.vdo p{
+    margin: 0px;
+    color: gray;
+}

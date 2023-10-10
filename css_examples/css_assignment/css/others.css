@@ -1,0 +1,11 @@
+.custom-cursor {
+    cursor: pointer;
+  }
+
+.disable-pointer-events {
+    pointer-events: none;
+  }
+
+.disable-user-select {
+    user-select: none;
+  }

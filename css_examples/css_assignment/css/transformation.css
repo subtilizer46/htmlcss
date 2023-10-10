@@ -1,0 +1,9 @@
+.transform-box {
+    transform: rotate(90deg) scale(1.5) translate(20px, 20px);
+    background-color: #0675be;
+    color: white;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+  }
+  

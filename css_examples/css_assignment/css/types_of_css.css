@@ -1,0 +1,35 @@
+/*
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #3498db;
+        }
+</style>
+
+
+<html>
+<head>
+    <title>External CSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>This is an example of using external CSS.</p>
+</body>
+</html>
+
+
+<html>
+<head>
+    <title>Inline CSS Example</title>
+</head>
+<body>
+    <p style="font-family: Arial, sans-serif;">This is an example of using inline CSS.</p>
+</body>
+</html>
+
+
+*/

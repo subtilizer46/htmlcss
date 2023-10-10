@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.black {
+    background-color: black;
+    height: 4vh;
+    margin-top: 2px;
+    display: flex;
+}
+
+.phn {
+    display: flex;
+    padding: 5px 200px;
+    
+}
+
+.phn img {
+    height: 16px;
+}
+
+.phn span {
+    color: white;
+    font-size: small;
+}
+
+.socialicons {
+    display: flex;
+    position: relative;
+    left: 600px;
+    
+}
+
+.socialicons img {
+    height: 16px;
+    padding: 5px 2px;
+}
+
+.white {
+    height: 10vh;
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    padding: 0 220px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.logo h1 {
+    padding-top: 12px;
+}
+
+.navitems {
+    display: flex;
+}
+
+.navitems li {
+    list-style: none;
+    padding: 0 20px;
+    padding-top: 23px;
+}
+
+.navitems li a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+
+}
+
+.navitems li :hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-image: url(images/hero.jpeg);
+    height: 60vh;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 13vh;
+}
+
+.heading h2 {
+    color: white;
+    font-weight: lighter;
+    font-size:xx-large;
+}
+
+.heading2 {
+    padding-top: 4vh;
+}
+
+.line {
+    padding-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line hr {
+    width: 5%;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4vh;
+}
+
+.para p {
+    color: white;
+    font-weight: 100;
+}
+
+.para2 {
+    padding-top: 4vh;
+}
+
+.sm-hero {
+    background-color: rgb(26, 26, 26);
+    height: 15vh;
+    display: flex;
+}
+
+.writing {
+    padding: 30px 120px;
+}
+
+.s1 {
+    color: gray;
+    font-size: small;
+}
+
+.head {
+    display: flex;
+}
+
+.head h4 {
+    color: white;
+    font-weight: lighter;
+}
+
+.heading4 {
+    font-style: oblique;
+    padding-left: 5px;
+}
+
+.buttons {
+    padding: 30px 300px;
+}
+
+.button1 {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+.button2 {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+.text1 {
+    font-weight: lighter;
+}
+
+.text2 {
+    margin: 0 5px;
+}
+
+.text3 {
+    font-weight: lighter;
+}

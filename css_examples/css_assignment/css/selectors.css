@@ -1,0 +1,36 @@
+.class-text {
+    color: red;
+  }
+
+#id-text {
+    font-size: 20px;
+  }
+
+p {
+    line-height: 1.5;
+  }
+
+p + span {
+    font-weight: bold;
+  }
+
+p ~ span {
+    color: green;
+  }
+
+div > p:first-child {
+    text-decoration: dashed;
+  }
+
+a:hover {
+    color: purple;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+p:not(::after) {
+    font-style: italic;
+  }

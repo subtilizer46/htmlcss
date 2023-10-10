@@ -1,0 +1,14 @@
+.text {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #f80909;
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    word-wrap: break-word;
+  }
+  

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/assignment03/images/blackbggirl2.jpg);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 400px;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+}
+
+.hero{
+    color: white;
+    padding-left: 80px;
+    margin-top: 120px;
+}
+
+.para{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 17px;
+}
+
+.navbar{
+    /* background-color: black; */
+    font-weight: bolder;
+    display: flex;
+    /* align-items: center; */
+    margin: 0 80px;
+    margin-top: 50px;
+    padding: 0 5px;
+}
+
+.navitem1{
+    flex-grow: 3;
+    font-size: 20px;
+}
+
+.navitem2 {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-grow: 6;
+    font-size: 18px;
+}
+
+.navitem3{
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: end;
+    flex-grow: 3;
+    font-size: 16px;
+}
+
+.navitem2 li {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 50px;
+    
+}
+
+.navitem2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navitem3 li {
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.navitem2 li :hover {
+    color: rgb(214, 30, 30);
+}
+
+.heading{
+    font-size: 25px;
+}
+
+.hbutton{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+}
+
+.button1 {
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+    margin: 0 20px;
+    padding: 8px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: white;
+}

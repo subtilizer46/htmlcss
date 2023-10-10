@@ -1,0 +1,9 @@
+@keyframes slide {
+    0% { left: 0; }
+    100% {left: 400px; }
+  }
+  
+  .animated-box {
+    position: relative;
+    animation: slide 5s alternate infinite;
+  }

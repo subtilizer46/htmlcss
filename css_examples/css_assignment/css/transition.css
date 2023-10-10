@@ -1,0 +1,9 @@
+.transition-box {
+    transition: all 0.5s ease-in;
+  }
+  
+.transition-box:hover {
+    transform: scale(1.4);
+    background-color: #ffcc00;
+  }
+  
