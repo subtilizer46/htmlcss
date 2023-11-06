@@ -1,0 +1,25 @@
+{
+  "name": "getting-started-with-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript provides lot of flexibility while writing programs.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "eslint": "eslint *.js '**/*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "jest": "^27.4.5",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "eslint": "^4.0.0"
+  }
+}

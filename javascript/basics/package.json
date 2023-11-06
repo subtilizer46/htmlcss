@@ -1,0 +1,23 @@
+{
+  "name": "javascript-basics-assignment",
+  "version": "1.0.0",
+  "description": "1.  You are given five problems in this assignment to solve which shall be available in `./solutions` directory  \r 2.  Test cases for three of these problems could be find in `./test` directory which validates the solution and you shall ensure that all of them pass before you submit your code for an automated review (steps shared below)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "eslint": "eslint *.js '**/*.js'"
+  },
+  "author": "Himani Singla",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
